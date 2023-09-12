@@ -32,11 +32,11 @@ This will start the interactive command-line interface (CLI) for generating QR c
 
 You can choose the type of QR code you want to generate:
 
-# **Website URL:** Generate a QR code for a website URL.
-# **Image:** Generate a QR code for an image file.
-# **Video:** Generate a QR code for a video file.
-# **GIF: **Generate a QR code for a GIF file.
-# **Custom URL:** Generate a QR code for a custom URL or text.
+- **Website URL:** Generate a QR code for a website URL.
+- **Image:** Generate a QR code for an image file.
+- **Video:** Generate a QR code for a video file.
+- **GIF:** Generate a QR code for a GIF file.
+- **Custom URL:** Generate a QR code for a custom URL or text.
 Provide Input
 Depending on the type you choose, you will be prompted to provide the necessary input. For example:
 
@@ -52,11 +52,11 @@ You can generate more QR codes by following the prompts or exit the application 
 ## Project Structure
 The project structure is as follows:
 
-index.js: The main application file that handles user input and generates QR codes.
-package.json: Contains project metadata and dependencies.
-package-lock.json: Auto-generated file that keeps track of dependency versions.
-output/: A directory where generated QR code images are stored.
-Customization
+- index.js: The main application file that handles user input and generates QR codes.
+- package.json: Contains project metadata and dependencies.
+- package-lock.json: Auto-generated file that keeps track of dependency versions.
+- output/: A directory where generated QR code images are stored.
+## Customization
 You can customize this project to fit your specific needs. Here are some ideas for enhancements:
 
 Implement additional QR code generation libraries or options.
