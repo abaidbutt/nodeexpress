@@ -21,21 +21,22 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 Navigate to the project directory:
 
-```sh
-  cd qrcode-generator
+   ```sh
+     cd qrcode-generator
 Install the project dependencies using npm:
 
-```sh
-  npm install
+   ```sh
+     npm install
+
 ## Usage
 To generate QR codes, run the application:
 
-```sh
-Copy code
-node index.js
+   ```sh
+
+      node index.js
 This will start the interactive command-line interface (CLI) for generating QR codes.
 
-### Choose QR Code Type
+## Choose QR Code Type
 You can choose the type of QR code you want to generate:
 
 **Website URL:** Generate a QR code for a website URL.
@@ -52,7 +53,7 @@ For a custom URL or text, enter the content.
 Generate QR Code
 The application will generate the QR code and display it on the console. You can also find the generated QR code image in the output/ directory.
 
-Repeat or Exit
+# Repeat or Exit
 You can generate more QR codes by following the prompts or exit the application when you're done.
 
 Project Structure
@@ -76,10 +77,7 @@ qr-image: The QR code generation library used in this project.
 Node.js community and open-source contributors.
 Enjoy generating QR codes for websites, images, videos, and more with this Node.js QR code generator!
 
-css
-Copy code
-
-Replace the placeholders (e.g., `yourusername`, `qr-code.png`, etc.) with your actual information and project details. You can save this Markdown code in a file named `README.md` in your project's root directory. Make sure to include any relevant images, such as the QR code image, and customize the content as needed for your project.
+Replace the placeholders (e.g., `yourusername`, `qr-code.png`, etc.) with your actual information and project details. 
 
 
 
