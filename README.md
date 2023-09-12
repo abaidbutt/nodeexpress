@@ -22,21 +22,19 @@ Before you begin, ensure you have the following prerequisites installed on your 
 Navigate to the project directory:
 
    ```sh
-     cd qrcode-generator
+   cd qrcode-generator
+
 Install the project dependencies using npm:
 
    ```sh
-     npm install
+   npm install
 
 ## Usage
 To generate QR codes, run the application:
-
-   ```sh
-
-      node index.js
 This will start the interactive command-line interface (CLI) for generating QR codes.
 
 ## Choose QR Code Type
+
 You can choose the type of QR code you want to generate:
 
 **Website URL:** Generate a QR code for a website URL.
