@@ -20,14 +20,9 @@ Before you begin, ensure you have the following prerequisites installed on your 
    git clone https://github.com/abaidbutt/qrcodegenerator.git
 
 Navigate to the project directory:
-
-   ```sh
-   cd qrcode-generator
-
 Install the project dependencies using npm:
-
-   ```sh
-   npm install
+    ```sh
+   npm install && npm start
 
 ## Usage
 To generate QR codes, run the application:
@@ -70,7 +65,7 @@ Add error handling and validation for user input.
 Improve the design and styling of the generated QR code images.
 Feel free to explore and extend this project to meet your requirements.
 
-Acknowledgments
+## Acknowledgments
 qr-image: The QR code generation library used in this project.
 Node.js community and open-source contributors.
 Enjoy generating QR codes for websites, images, videos, and more with this Node.js QR code generator!
